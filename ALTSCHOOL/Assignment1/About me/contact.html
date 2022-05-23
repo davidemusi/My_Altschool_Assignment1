@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <form action="./contact.html" method="post">
+      <p>
+        <label>First name</label><br />
+        <input type="text" name="first_name" />
+      </p>
+      <p>
+        <label>Last name</label><br />
+        <input type="text" name="last_name" />
+      </p>
+      <p>
+        <label>Email</label><br />
+        <input type="email" name="email" required />
+      </p>
+      <p>
+        <label>Message</label><br />
+        <input type="text" name="message" />
+      </p>
+      <p>
+        <label for="t3">Leave a short message</label>
+        <textarea id="t3" name="msg" maxlength="140" rows="4"></textarea>
+      </p>
+      <select name="difficult1" id="difficult1">
+        <option value="">level</option>
+        <option value="3">easy</option>
+        <option value="2">moderate</option>
+        <option value="1">difficult</option>
+      </select>
+      <p>
+        <button>Submit</button>
+      </p>
+    </form>
+  </body>
+</html>
